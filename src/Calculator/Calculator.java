@@ -61,14 +61,14 @@ public class Calculator {
 		});
 	}
 	/**
-	*�� �����
+	*앱 만들기
 	*/
 	public Calculator() {
 		initialize();
 	}
 	private void initialize() {
 		frmStandardCalculator = new JFrame();
-		frmStandardCalculator.getContentPane().setFont(new Font("����", Font.PLAIN, 14));
+		frmStandardCalculator.getContentPane().setFont(new Font("굴림", Font.PLAIN, 14));
 		frmStandardCalculator.setTitle("Standard Calculator");
 		frmStandardCalculator.setBounds(100, 100, 394, 530);
 		frmStandardCalculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -123,13 +123,13 @@ public class Calculator {
 		
 		textField = new JTextField();
 		textField.setHorizontalAlignment(SwingConstants.RIGHT);
-		textField.setFont(new Font("����", Font.PLAIN, 16));
+		textField.setFont(new Font("굴림", Font.PLAIN, 16));
 		textField.setBounds(12, 10, 356, 70);
 		frmStandardCalculator.getContentPane().add(textField);
 		textField.setColumns(10);
 		
 		JButton btn_backspace = new JButton("\u2190");
-		btn_backspace.setFont(new Font("����", Font.PLAIN, 14));
+		btn_backspace.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_backspace.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -148,7 +148,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_backspace);
 		
 		JButton button_1 = new JButton("CE");
-		button_1.setFont(new Font("����", Font.PLAIN, 14));
+		button_1.setFont(new Font("굴림", Font.PLAIN, 14));
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -159,7 +159,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(button_1);
 		
 		JButton button_2 = new JButton("C");
-		button_2.setFont(new Font("����", Font.PLAIN, 14));
+		button_2.setFont(new Font("굴림", Font.PLAIN, 14));
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -170,7 +170,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(button_2);
 		
 		JButton btn_pls_mis = new JButton("\u00B1");
-		btn_pls_mis.setFont(new Font("����", Font.PLAIN, 14));
+		btn_pls_mis.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_pls_mis.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -183,7 +183,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_pls_mis);
 		
 		JButton btn_root = new JButton("\u221A");
-		btn_root.setFont(new Font("����", Font.PLAIN, 14));
+		btn_root.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_root.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -196,7 +196,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_root);
 		
 		JButton btn_7 = new JButton("7");
-		btn_7.setFont(new Font("����", Font.PLAIN, 14));
+		btn_7.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -209,7 +209,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_7);
 		
 		JButton btn_8 = new JButton("8");
-		btn_8.setFont(new Font("����", Font.PLAIN, 14));
+		btn_8.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -222,7 +222,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_8);
 		
 		JButton btn_9 = new JButton("9");
-		btn_9.setFont(new Font("����", Font.PLAIN, 14));
+		btn_9.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -235,7 +235,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_9);
 		
 		JButton btn_div = new JButton("/");
-		btn_div.setFont(new Font("����", Font.PLAIN, 14));
+		btn_div.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_div.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -249,7 +249,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_div);
 		
 		JButton btn_mod = new JButton("%");
-		btn_mod.setFont(new Font("����", Font.PLAIN, 14));
+		btn_mod.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_mod.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -263,7 +263,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_mod);
 		
 		JButton btn_4 = new JButton("4");
-		btn_4.setFont(new Font("����", Font.PLAIN, 14));
+		btn_4.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			
@@ -276,7 +276,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_4);
 		
 		JButton btn_5 = new JButton("5");
-		btn_5.setFont(new Font("����", Font.PLAIN, 14));
+		btn_5.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -289,7 +289,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_5);
 		
 		JButton btn_6 = new JButton("6");
-		btn_6.setFont(new Font("����", Font.PLAIN, 14));
+		btn_6.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -302,7 +302,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_6);
 		
 		JButton btn_mul = new JButton("*");
-		btn_mul.setFont(new Font("����", Font.PLAIN, 14));
+		btn_mul.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_mul.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -323,13 +323,13 @@ public class Calculator {
 				textField.setText(String.valueOf(opt));
 			}
 		});
-		btn_num.setFont(new Font("����", Font.PLAIN, 14));
+		btn_num.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_num.setToolTipText("");
 		btn_num.setBounds(302, 239, 58, 64);
 		frmStandardCalculator.getContentPane().add(btn_num);
 		
 		JButton btn_1 = new JButton("1");
-		btn_1.setFont(new Font("����", Font.PLAIN, 14));
+		btn_1.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -342,7 +342,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_1);
 		
 		JButton btn_2 = new JButton("2");
-		btn_2.setFont(new Font("����", Font.PLAIN, 14));
+		btn_2.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -355,7 +355,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_2);
 		
 		JButton btn_3 = new JButton("3");
-		btn_3.setFont(new Font("����", Font.PLAIN, 14));
+		btn_3.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -368,7 +368,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_3);
 		
 		JButton btn_sub = new JButton("-");
-		btn_sub.setFont(new Font("����", Font.PLAIN, 14));
+		btn_sub.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_sub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -382,7 +382,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_sub);
 		
 		JButton btn_equal = new JButton("=");
-		btn_equal.setFont(new Font("����", Font.PLAIN, 14));
+		btn_equal.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_equal.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -425,7 +425,7 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_equal);
 		
 		JButton btn_0 = new JButton("0");
-		btn_0.setFont(new Font("����", Font.PLAIN, 14));
+		btn_0.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_0.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -445,13 +445,13 @@ public class Calculator {
 				}
 			}
 		});
-		btn_dot.setFont(new Font("����", Font.PLAIN, 14));
+		btn_dot.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_dot.setToolTipText("");
 		btn_dot.setBounds(162, 387, 58, 64);
 		frmStandardCalculator.getContentPane().add(btn_dot);
 		
 		JButton btn_add = new JButton("+");
-		btn_add.setFont(new Font("����", Font.PLAIN, 14));
+		btn_add.setFont(new Font("굴림", Font.PLAIN, 14));
 		btn_add.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -720,18 +720,18 @@ public class Calculator {
 		frmStandardCalculator.getContentPane().add(btn_Oc);
 		
 		JComboBox jcmbCurrencys = new JComboBox();
-		jcmbCurrencys.setFont(new Font("����", Font.PLAIN, 30));
+		jcmbCurrencys.setFont(new Font("굴림", Font.PLAIN, 30));
 		jcmbCurrencys.setModel(new DefaultComboBoxModel(new String[] {"\uB098\uB77C \uC120\uD0DD", "\uB7EC\uC2DC\uC544", "\uBA55\uC2DC\uCF54", "\uBBF8\uAD6D", "\uBCA0\uD2B8\uB0A8", "\uBE0C\uB77C\uC9C8", "\uC2F1\uAC00\uD3EC\uB974", "\uC601\uAD6D", "\uC720\uB7FD\uC5F0\uD569", "\uC778\uB3C4", "\uC77C\uBCF8", "\uCE90\uB098\uB2E4", "\uD130\uD0A4", "\uD544\uB9AC\uD540", "\uD638\uC8FC"}));
 		jcmbCurrencys.setBounds(733, 90, 364, 78);
 		frmStandardCalculator.getContentPane().add(jcmbCurrencys);
 		
 		JLabel label = new JLabel("\uD658\uC728 \uACC4\uC0B0\uAE30");
-		label.setFont(new Font("����", Font.BOLD, 40));
+		label.setFont(new Font("굴림", Font.BOLD, 40));
 		label.setBounds(806, 24, 220, 56);
 		frmStandardCalculator.getContentPane().add(label);
 		
 		jtxtConverts = new JTextField();
-		jtxtConverts.setFont(new Font("����", Font.PLAIN, 25));
+		jtxtConverts.setFont(new Font("굴림", Font.PLAIN, 25));
 		jtxtConverts.setBounds(733, 199, 364, 64);
 		frmStandardCalculator.getContentPane().add(jtxtConverts);
 		jtxtConverts.setColumns(10);
@@ -741,80 +741,80 @@ public class Calculator {
 			public void actionPerformed(ActionEvent e) {
 				
 				double Korean_Won = Double.parseDouble(jtxtConverts.getText());
-				if(jcmbCurrencys.getSelectedItem().equals("���þ�"))
+				if(jcmbCurrencys.getSelectedItem().equals("러시아"))
 				{
-					String cConvert1 = String.format("%.2f ���", (Korean_Won*Rusia)/1000);
+					String cConvert1 = String.format("%.2f 루블", (Korean_Won*Rusia)/1000);
 					jlblConverts.setText(cConvert1);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�߽���"))
+				if(jcmbCurrencys.getSelectedItem().equals("멕시코"))
 				{
-					String cConvert2 = String.format("%.2f ���", (Korean_Won*Mexico)/1000);
+					String cConvert2 = String.format("%.2f 페소", (Korean_Won*Mexico)/1000);
 					jlblConverts.setText(cConvert2);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�̱�"))
+				if(jcmbCurrencys.getSelectedItem().equals("미국"))
 				{
-					String cConvert3 = String.format("%.2f �޷�", (Korean_Won*USA)/1000);
+					String cConvert3 = String.format("%.2f 달러", (Korean_Won*USA)/1000);
 					jlblConverts.setText(cConvert3);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("��Ʈ��"))
+				if(jcmbCurrencys.getSelectedItem().equals("베트남"))
 				{
-					String cConvert4 = String.format("%.2f ��", (Korean_Won*Vetnam)/1000);
+					String cConvert4 = String.format("%.2f 동", (Korean_Won*Vetnam)/1000);
 					jlblConverts.setText(cConvert4);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�����"))
+				if(jcmbCurrencys.getSelectedItem().equals("브라질"))
 				{
-					String cConvert5 = String.format("%.2f ���", (Korean_Won*Blazil)/1000);
+					String cConvert5 = String.format("%.2f 헤알", (Korean_Won*Blazil)/1000);
 					jlblConverts.setText(cConvert5);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�̰�����"))
+				if(jcmbCurrencys.getSelectedItem().equals("싱가포르"))
 				{
-					String cConvert6 = String.format("%.2f �޷�", (Korean_Won*Sing)/1000);
+					String cConvert6 = String.format("%.2f 달러", (Korean_Won*Sing)/1000);
 					jlblConverts.setText(cConvert6);
 				}	
-				if(jcmbCurrencys.getSelectedItem().equals("����"))
+				if(jcmbCurrencys.getSelectedItem().equals("영국"))
 				{
-					String cConvert7 = String.format("%.2f �Ŀ��", (Korean_Won*Yong)/1000);
+					String cConvert7 = String.format("%.2f 파운드", (Korean_Won*Yong)/1000);
 					jlblConverts.setText(cConvert7);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("��������"))
+				if(jcmbCurrencys.getSelectedItem().equals("유럽연합"))
 				{
-					String cConvert8 = String.format("%.2f ����", (Korean_Won*EU)/1000);
+					String cConvert8 = String.format("%.2f 유로", (Korean_Won*EU)/1000);
 					jlblConverts.setText(cConvert8);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�ε�"))
+				if(jcmbCurrencys.getSelectedItem().equals("인도"))
 				{
-					String cConvert9 = String.format("%.2f ����", (Korean_Won*India)/1000);
+					String cConvert9 = String.format("%.2f 루피", (Korean_Won*India)/1000);
 					jlblConverts.setText(cConvert9);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�Ϻ�"))
+				if(jcmbCurrencys.getSelectedItem().equals("일본"))
 				{
-					String cConvert10 = String.format("%.2f ��", (Korean_Won*Japan)/1000);
+					String cConvert10 = String.format("%.2f 엔", (Korean_Won*Japan)/1000);
 					jlblConverts.setText(cConvert10);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("ĳ����"))
+				if(jcmbCurrencys.getSelectedItem().equals("캐나다"))
 				{
-					String cConvert11 = String.format("%.2f �޷�", (Korean_Won*Canada)/1000);
+					String cConvert11 = String.format("%.2f 달러", (Korean_Won*Canada)/1000);
 					jlblConverts.setText(cConvert11);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("��Ű"))
+				if(jcmbCurrencys.getSelectedItem().equals("터키"))
 				{
-					String cConvert12 = String.format("%.2f ����", (Korean_Won*Tukky)/1000);
+					String cConvert12 = String.format("%.2f 리라", (Korean_Won*Tukky)/1000);
 					jlblConverts.setText(cConvert12);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("�ʸ���"))
+				if(jcmbCurrencys.getSelectedItem().equals("필리핀"))
 				{
-					String cConvert13 = String.format("%.2f ���", (Korean_Won*Pillipin)/1000);
+					String cConvert13 = String.format("%.2f 페소", (Korean_Won*Pillipin)/1000);
 					jlblConverts.setText(cConvert13);
 				}
-				if(jcmbCurrencys.getSelectedItem().equals("ȣ��"))
+				if(jcmbCurrencys.getSelectedItem().equals("호주"))
 				{
-					String cConvert14 = String.format("%.2f �޷�", (Korean_Won*Ostria)/1000);
+					String cConvert14 = String.format("%.2f 달러", (Korean_Won*Ostria)/1000);
 					jlblConverts.setText(cConvert14);
 				}
 				
 			}
 		});
-		btnConverts.setFont(new Font("����", Font.PLAIN, 25));
+		btnConverts.setFont(new Font("굴림", Font.PLAIN, 25));
 		btnConverts.setBounds(755, 395, 144, 49);
 		frmStandardCalculator.getContentPane().add(btnConverts);
 		
@@ -824,15 +824,15 @@ public class Calculator {
 				
 				jtxtConverts.setText(null);
 				jlblConverts.setText(null);
-				jcmbCurrencys.setSelectedItem("���� ����");
+				jcmbCurrencys.setSelectedItem("나라 선택");
 			}
 		});
-		btnClear.setFont(new Font("����", Font.PLAIN, 25));
+		btnClear.setFont(new Font("굴림", Font.PLAIN, 25));
 		btnClear.setBounds(931, 395, 136, 49);
 		frmStandardCalculator.getContentPane().add(btnClear);
 		
 		jlblConverts = new JTextField();
-		jlblConverts.setFont(new Font("����", Font.PLAIN, 25));
+		jlblConverts.setFont(new Font("굴림", Font.PLAIN, 25));
 		jlblConverts.setBounds(755, 294, 312, 56);
 		frmStandardCalculator.getContentPane().add(jlblConverts);
 		jlblConverts.setColumns(10);
