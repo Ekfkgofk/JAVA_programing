@@ -38,15 +38,15 @@ public class Calculator {
 	double USA = 0.77;
 	double Vetnam = 17985.61;
 	double Blazil = 3.99; 
-	double Sing = 1.07; //�޷�
-	double Yong = 0.63; //�Ŀ��
-	double EU = 0.74; //����
-	double India = 60.28;//����
-	double Japan = 104.55;//��
-	double Canada = 1.00;//�޷�
-	double Tukky = 13.40;//����
-	double Pillipin = 41.86;//���
-	double Ostria = 1.11;//�޷�
+	double Sing = 1.07; 
+	double Yong = 0.63; 
+	double EU = 0.74; 
+	double India = 60.28;
+	double Japan = 104.55;
+	double Canada = 1.00;
+	double Tukky = 13.40;
+	double Pillipin = 41.86;
+	double Ostria = 1.11;
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
